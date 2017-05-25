@@ -297,6 +297,7 @@ public class UI extends javax.swing.JFrame {
         System.out.println(counter);
         
         if (game.checkIfAllDisabled()) {
+            counter--;
             String s = "You took " +counter +" moves to complete";
             JOptionPane.showMessageDialog(rootPane, s);
         }
