@@ -31,11 +31,8 @@ public class Game {
                 list.add((short)i);
             }
         }
-        System.out.println("before shuffle: " +list);
         
         Collections.shuffle(list);
-        
-        System.out.println("after shuffle: " +list);
     }
     
     public void letsPlay(short position, JLabel name) {
